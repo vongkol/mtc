@@ -1,0 +1,295 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio (https://startbootstrap.com/template-overviews/4-col-portfolio)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-4-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-size: 13px;
+}
+.pd-vdoo {
+	margin: 5px 15px;
+}
+.list-group-item {
+	padding: 7px 9px;
+}
+.form-control, .btn {
+	font-size: 13px;
+}
+.dropdown-menu {
+    margin-top: 18px;
+	border-radius: 0;
+	background: #FFE57F;
+	border:none;
+}
+.navbar {
+    padding: .0;
+}
+.pd {
+	padding: 5px;
+}
+.pagination .active >span {
+	background: #1A237E;
+	color: #fff;
+	padding: 10px 15px;
+}
+.page-title {
+	background: #E3F2FD;
+    color: #1A237E;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 800;
+}
+.pagination > li > span{
+    font-weight: 800;
+    border: 1px solid #ccc;
+    padding: 9px 15px;
+}
+.pagination > li > a{
+    font-weight: 800;
+    border: 1px solid #ccc;
+    padding: 9px 15px;
+}
+h5 {
+	color: #1A237E;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: -5px;
+}
+.text-job {
+	padding: 0 10px;
+	border-radius: 4px;
+	color: #fff;
+	background: #007bff;
+}
+h6 {
+	color: #1A237E;
+	font-size: 14px;
+	font-weight: 700;
+}
+.search-job {
+	background: #fed521 !important;
+    padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+    line-height: 0;
+    margin-top: -100px;
+	margin-bottom: 15px;
+	position: relative; 
+}
+.blue-job {
+	color: #1A237E;
+	font-size: 15px;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.photo {
+	padding: 5px 0;
+}
+.row-vdoo {
+	margin-left: 0;
+}
+.nav-link {
+    padding: 1px;
+    color: #111;
+    list-style-type: none;
+}
+.mt-4, .my-4 {
+     margin-top: 0!important; 
+}
+li {
+	list-style: none;
+	font-weight: 700;
+}
+.bg-default {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #E3F2FD;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.orange {
+	padding: 1px 15px;
+	border-radius: 25px;
+	color: #fff;
+	background: rgb(250, 60, 76);
+}
+.job-vdoo {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #1a237e;
+}
+.pagination {
+  margin-bottom: 30px;
+}
+.img-height {
+	max-height: 70px;
+	max-width: 100%;
+}
+
+.blue {
+	color: #1A237E;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: 700;
+}
+.border {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 2px;
+}
+.training-course {
+	margin-top: -35px;
+}
+
+.border-job {
+	border: 1px solid #ccc;
+	padding: 13px 9px;
+	border-radius: 4px;
+}
+.b {
+	border: 1px solid #BBDEFB;
+	padding: 5px;
+}
+.bg-dark {
+    background-color: #fed521!important;
+}
+.form-control {
+	padding: 9px;
+	line-height: 0.5;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #111;
+    font-weight: 700;
+}
+
+.border-com {
+	border: 0px solid #eee;
+    line-height: 74px;
+    min-height: 74px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #111;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #666;
+}
+.gray{
+	color: #666;
+	font-size: 17px;
+}
+@media (min-width: 992px) {
+	body {
+		padding-top: 56px;
+	}
+}
+@media (min-width: 768px){
+	.training-course {
+		margin-top: 10px;
+	}
+	.navbar-brand {
+		display: inline-block;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 1rem;
+		font-size: 1.25rem;
+		line-height: inherit;
+		white-space: nowrap;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: #111;
+		font-weight: 700;
+		padding: 5px 24px;
+	}	
+}
+
+@media (max-width: 767px) {
+	.training-course {
+		margin-top: 10px;
+	}
+	.navbar-brand {
+		display: inline-block;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 1rem;
+		font-size: 1.25rem;
+		line-height: inherit;
+		white-space: nowrap;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: #111;
+		font-weight: 700;
+		padding: 5px 24px;
+	}	
+}
+
+@media (max-width: 479px) {
+    .search-job {
+		margin-top: 10px;
+	}
+	h5 {
+		margin-top: 10px;
+	}
+	.training-course {
+		margin-top: 10px;
+	}
+	.navbar-brand {
+		display: inline-block;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 1rem;
+		font-size: 1.25rem;
+		line-height: inherit;
+		white-space: nowrap;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: #111;
+		font-weight: 700;
+		padding: 5px 24px;
+	}	
+}
+
+@media (max-width: 360px) {
+	.search-job {
+		margin-top: 10px;
+	}
+	.training-course {
+		margin-top: 10px;
+	}
+	
+	.navbar-brand {
+		display: inline-block;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 1rem;
+		font-size: 1.25rem;
+		line-height: inherit;
+		white-space: nowrap;
+	}
+	h5 {
+		margin-top: 10px;
+	}
+	.navbar-dark .navbar-nav .nav-link {
+		color: #111;
+		font-weight: 700;
+		padding: 5px 24px;
+	}	
+}
+.txt-job{
+    font-size: 18px;
+}
